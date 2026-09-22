@@ -1,0 +1,84 @@
+.status-badge,
+.priority-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.2em 0.6em;
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.status-badge__marker,
+.priority-badge__marker {
+  font-size: 0.95em;
+}
+
+/* Work order state badges */
+
+.status-badge--reported {
+  background-color: #eef2ff;
+  border-color: #6366f1;
+  color: #3730a3;
+}
+
+.status-badge--triaged {
+  background-color: #fef9c3;
+  border-color: #ca8a04;
+  color: #854d0e;
+}
+
+.status-badge--scheduled {
+  background-color: #e0f2fe;
+  border-color: #0284c7;
+  color: #075985;
+}
+
+.status-badge--in_progress {
+  background-color: #fef3c7;
+  border-color: #d97706;
+  color: #92400e;
+}
+
+.status-badge--completed {
+  background-color: #dcfce7;
+  border-color: #16a34a;
+  color: #166534;
+}
+
+.status-badge--cancelled {
+  background-color: #fee2e2;
+  border-color: #dc2626;
+  color: #991b1b;
+  text-decoration: line-through;
+}
+
+/* Work order priority badges */
+
+.priority-badge--low {
+  background-color: #f1f5f9;
+  border-color: #64748b;
+  color: #334155;
+}
+
+.priority-badge--medium {
+  background-color: #e0f2fe;
+  border-color: #0284c7;
+  color: #075985;
+}
+
+.priority-badge--high {
+  background-color: #ffedd5;
+  border-color: #ea580c;
+  color: #9a3412;
+}
+
+.priority-badge--critical {
+  background-color: #fee2e2;
+  border-color: #dc2626;
+  color: #991b1b;
+  font-weight: 700;
+}
