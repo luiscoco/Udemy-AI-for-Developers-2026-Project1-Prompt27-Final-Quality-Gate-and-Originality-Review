@@ -1,4 +1,4 @@
-# Prompt 27 Final Quality Gate and Originality Review
+# Final Quality Gate and Originality Review
 
 This note documents what was actually done for the "final quality gate" prompt on
 the Equipment Maintenance Hub project, in the order it happened. It's meant for
